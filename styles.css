@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#top{
+    height: 100px;
+    width:auto;
+    background-color: #2837BC;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logo{
+    height: 63px;
+    width: 140px;
+    background-color: azure;
+}
+
+#search{
+    height:47px;
+    width:464px;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    padding-left: 20px;
+}
+
+#cont{
+    height: 47px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: #D4672A;
+    border: none;
+}
+
+#bar button{
+    width:72px;
+    height: 90px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+}
+
+#house{
+    background: url(resized/House_72x76.png);
+    background-position: center;
+}
+
+#place{
+    background: url(resized/location_66x67.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#food{
+    background: url(resized/plate_53x51.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bar{
+    display: flex;
+    width: 500px;
+    height: 105px;
+    justify-content: space-between;
+    margin: auto;
+    border-bottom: solid;
+}
