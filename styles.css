@@ -71,3 +71,48 @@
     margin: auto;
     border-bottom: solid;
 }
+
+#sugge{
+    padding-top: 70px;
+}
+
+.line{
+    width:1260px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.img{
+    width: 310px;
+    height: 310px;
+    border-radius: 50px;
+    background-position: center;
+}
+
+#img1{
+    background-image: url(resized/radison.png);
+}
+
+#img2{
+    background-image: url(resized/resto1.jpg);
+    background-position: right;
+}
+
+#img3{
+    background-image: url(resized/palais.jpg);
+}
+
+.desc{
+    height: 200px;
+    width: 835px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#line2, #line3{
+    margin-top: 70px;
+}
