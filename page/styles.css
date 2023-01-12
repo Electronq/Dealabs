@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#top{
+    height: 100px;
+    width:auto;
+    background-color: #325c74;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logo{
+    height: 63px;
+    width: 140px;
+    background-color: azure;
+}
+
+#search{
+    height:47px;
+    width:464px;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    padding-left: 20px;
+}
+
+#cont{
+    height: 47px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: #9897a0;
+    font-size: 18px;
+    font-weight: 750px;
+    border: none;
+}
+
+#bar button{
+    width:72px;
+    height: 90px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+}
+
+#house{
+    background: url(resized/House_72x76.png);
+    background-position: center;
+    transition: 200ms ease;
+}
+
+#house:hover, #place:hover, #food:hover{
+    transform: translateY(-8px);
+    transition: 200ms ease;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#place{
+    background: url(resized/location_66x67.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 200ms ease;
+}
+
+#food{
+    background: url(resized/plate_53x51.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 200ms ease;
+}
+
+#bar{
+    display: flex;
+    width: 500px;
+    height: 105px;
+    justify-content: space-between;
+    margin: auto;
+    border-bottom: solid;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img:hover{
+    opacity: 90%;
+    cursor:pointer;
+}
+
+
+.img-holder{
+    display: flex;
+    max-width: 50%;
+    gap:5px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+#imgmain{
+    width: 600px;
+}
+
+.img-small{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.img-small > *{
+    width: 300px;
+}
+
+/* Content */
+
+.low-content{
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    max-width: 905px;
+    gap:10px;
+    
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: #e2e2e2;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.phone, .address{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin:10px;
+}
+
+.text-area{
+    width: 70%;
+    background-color: #e2e2e2;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+.header-card{
+    background-color: #13181d;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Social network info,  */
