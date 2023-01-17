@@ -38,6 +38,7 @@
     font-size: 18px;
     font-weight: 750px;
     border: none;
+    cursor: pointer;
 }
 
 #bar button{
@@ -166,6 +167,11 @@ img:hover{
     padding: 10px;
     text-align: center;
     font-size: 20px;
+}
+
+a[href="https://www.carlton-madagascar.com/"]{
+    display: flex;
+    justify-content: center;
 }
 
 /* Social network info,  */
